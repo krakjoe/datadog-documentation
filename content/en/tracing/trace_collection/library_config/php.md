@@ -162,7 +162,7 @@ The Agent request transfer timeout (in milliseconds).
 `DD_TRACE_AGENT_URL`
 : **INI**: `datadog.trace.agent_url`<br>
 **Default**: `null`<br>
-The Agent URL; takes precedence over `DD_AGENT_HOST` and `DD_TRACE_AGENT_PORT`; for example: `https://localhost:8126`. Added in version `0.47.1`.
+The Agent URL; takes precedence over `DD_AGENT_HOST` and `DD_TRACE_AGENT_PORT`; for example: `https://localhost:8126`. Added in version `0.47.1`. Supports Unix Domain sockets.
 
 `DD_TRACE_AUTO_FLUSH_ENABLED`
 : **INI**: `datadog.trace.auto_flush_enabled`<br>
